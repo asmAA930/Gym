@@ -1,0 +1,236 @@
+/* ***************************************************** Start Header ********************************** */
+header {
+    background-color: #3E3E3E;
+    height: 100vh;
+
+    border-top: 1px solid transparent;
+
+}
+
+/* ************** Start Nav ********************** */
+
+header nav {
+    border-bottom: 1px solid rgb(199, 199, 199);
+    padding-block: 10px;
+}
+
+header nav .container .part1 {
+    width: 130px;
+}
+
+header nav .container .part1 img {
+    width: 100%;
+}
+
+header nav .container .part2 {
+    margin-top: 30px;
+}
+
+header nav .container .part2 ul li {
+    display: inline-block;
+}
+
+header nav .container .part2 ul li.margin_right {
+    margin-right: 20px;
+}
+
+header nav .container .part2 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* ************** End Nav ********************** */
+
+header .content {
+    background-color: #3E3E3E(76, 0, 255);
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+header .content img {
+    width: 260px;
+}
+
+header .content h1 {
+    font-weight: 400;
+    font-size: 70px;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+
+header .content p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* ***************************************************** End Header ********************************** */
+
+
+/* ***************************************************** Start About_Us ********************************** */
+
+#About {
+    background-color: #73281A;
+    /* padding-block: 50px; */
+}
+
+#About .container .part1 {
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 30px;
+}
+
+#About .container .part1 h2 {
+    font-size: 85px;
+    font-weight: 400;
+}
+
+#About .container .part1 h5 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-block: 10px 30px;
+}
+
+#About .container .part1 p {
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 300;
+    /* font-size: 17px; */
+}
+
+#About .container .part1 p span {
+    background-color: #FF894F;
+    color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+#About .container .part2 {
+    width: 50%;
+
+}
+
+#About .container .part2 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* ***************************************************** End About_Us ********************************** */
+
+
+/* ***************************************************** Start Menu ********************************** */
+
+#Menu {
+    background-color: #3E3E3E;
+    color: #ffffff;
+}
+
+#Menu .container .content {
+    overflow: auto;
+}
+
+#Menu .container .content .burger {
+    float: left;
+    width: 50%;
+    padding: 20px 40px;
+
+}
+
+#Menu .container .content .burger img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#Menu .container .content .burger h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-block: 15px;
+}
+
+#Menu .container .content .burger ul {
+    overflow: auto;
+    padding-left: 40px;
+}
+
+#Menu .container .content .burger ul li {
+    float: left;
+    list-style-type: square;
+    width: 25%;
+    font-weight: 300;
+}
+
+/* ***************************************************** End Menu ********************************** */
+
+
+/* ***************************************************** Start Book_Now ********************************** */
+
+#Book_Now {
+    background-color: #73281A;
+}
+
+#Book_Now .content form {
+    width: 500px;
+    margin: auto;
+}
+
+#Book_Now .content form .input * {
+    display: block;
+}
+
+#Book_Now .content form .input label {
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+#Book_Now .content form .input input,
+#Book_Now .content form .input textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+#Book_Now .content form .input textarea {
+    height: 160px;
+    resize: none;
+}
+
+#Book_Now .content form button {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+/* ***************************************************** End Book_Now ********************************** */
+
+
+/* ***************************************************** Start Footer ********************************** */
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding-block: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* ***************************************************** End Footer ********************************** */
