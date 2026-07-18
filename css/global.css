@@ -1,0 +1,61 @@
+:root {
+    --main-color: #E55556;
+    --second-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: PT Sans, sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+section,
+footer {
+    padding-block: 45px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom:45px ;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#Services .container .title h2,
+#Trainers .container .title h2 {
+    color: #fff;
+}
+
+#Clients .container .title h2,
+#Gallery .container .title h2,
+#Contact .container .title h2 {
+    color: #000;
+}
